@@ -31,12 +31,14 @@
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.linkedEditing": true,
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.quickSuggestions": {
     "strings": true
   },
   "editor.renderWhitespace": "boundary",
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
@@ -60,6 +62,7 @@
     "*.css": "tailwindcss"
   },
   "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
