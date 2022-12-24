@@ -67,6 +67,7 @@
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "gitlens.currentLine.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveSassCompile.settings.formats": [
     {
