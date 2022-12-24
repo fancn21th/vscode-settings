@@ -68,6 +68,8 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "gitlens.currentLine.enabled": true,
+  "gitlens.hovers.enabled": false,
+  "gitlens.keymap": "alternate",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveSassCompile.settings.formats": [
     {
