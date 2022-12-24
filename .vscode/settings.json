@@ -22,7 +22,8 @@
   },
   "debug.console.fontSize": 14,
   "debug.javascript.autoAttachFilter": "disabled",
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeLens": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
@@ -58,6 +59,7 @@
   ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 1,
   "files.associations": {
     "*.css": "tailwindcss"
   },
