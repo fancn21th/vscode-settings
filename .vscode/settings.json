@@ -8,6 +8,9 @@
   "debug.console.fontSize": 14,
   "debug.javascript.autoAttachFilter": "disabled",
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.codeLens": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",

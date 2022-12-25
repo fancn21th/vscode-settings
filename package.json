@@ -1,0 +1,23 @@
+{
+  "name": "vscode-settings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/vscode-settings.git"
+  },
+  "keywords": [],
+  "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fancn21th/vscode-settings/issues"
+  },
+  "homepage": "https://github.com/fancn21th/vscode-settings#readme",
+  "devDependencies": {
+    "eslint": "8.30.0"
+  }
+}
