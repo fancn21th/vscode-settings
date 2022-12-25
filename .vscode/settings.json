@@ -1,91 +1,89 @@
 {
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
-  },
-  "debug.console.fontSize": 14,
-  "debug.javascript.autoAttachFilter": "disabled",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.codeLens": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
-  "editor.fontWeight": "normal",
-  "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
-  "editor.linkedEditing": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "editor.renderWhitespace": "boundary",
-  "editor.snippetSuggestions": "top",
-  "editor.suggestSelection": "first",
-  "editor.tabCompletion": "on",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "markdown": "html",
-    "typescript": "typescriptreact",
-    "vue-html": "html",
-    "wxml": "html"
-  },
-  "eslint.alwaysShowStatus": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html"
-  ],
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 1,
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
-  "files.autoSave": "off",
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "gitlens.currentLine.enabled": true,
-  "gitlens.hovers.enabled": false,
-  "gitlens.keymap": "alternate",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveSassCompile.settings.formats": [
-    {
-      "extensionName": ".css",
-      "format": "expanded",
-      "savePath": "/dist/css"
-    }
-  ],
-  "liveServer.settings.donotShowInfoMsg": true,
-  "notebook.cellToolbarLocation": {
-    "default": "right",
-    "jupyter-notebook": "left"
-  },
-  "redhat.telemetry.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "tailwindCSS.includeLanguages": {
-    "javascript": "javascript",
-    "plaintext": "html"
-  },
-  // "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.tabs.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "vite.autoStart": false,
-  "vite.browserType": "system",
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.sideBar.location": "left",
-  "workbench.startupEditor": "none"
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "octref.vetur"
+	},
+	"debug.console.fontSize": 14,
+	"debug.javascript.autoAttachFilter": "disabled",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.codeLens": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.fontWeight": "normal",
+	"editor.formatOnSave": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.linkedEditing": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.renderWhitespace": "boundary",
+	"editor.snippetSuggestions": "top",
+	"editor.suggestSelection": "first",
+	"editor.tabCompletion": "on",
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"markdown": "html",
+		"typescript": "typescriptreact",
+		"vue-html": "html",
+		"wxml": "html"
+	},
+	"eslint.alwaysShowStatus": true,
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html"],
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 1,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"files.autoSave": "off",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"gitlens.currentLine.enabled": true,
+	"gitlens.hovers.enabled": false,
+	"gitlens.keymap": "alternate",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"liveSassCompile.settings.formats": [
+		{
+			"extensionName": ".css",
+			"format": "expanded",
+			"savePath": "/dist/css"
+		}
+	],
+	"liveServer.settings.donotShowInfoMsg": true,
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"prettier.printWidth": 120,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"tailwindCSS.includeLanguages": {
+		"javascript": "javascript",
+		"plaintext": "html"
+	},
+	// "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.tabs.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"vite.autoStart": false,
+	"vite.browserType": "system",
+	"workbench.colorTheme": "GitHub Dark Default",
+	"workbench.sideBar.location": "left",
+	"workbench.startupEditor": "none"
 }
